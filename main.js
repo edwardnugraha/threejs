@@ -122,8 +122,7 @@ function animate(time) {
       intersects[i].object.material.color.set(0xff0000);
 
     if (intersects[i].object.name === "theBox") {
-      intersects[i].object.rotation.x = time / 1000;
-      intersects[i].object.rotation.y = time / 1000;
+      box.rotation;
     }
   }
 
